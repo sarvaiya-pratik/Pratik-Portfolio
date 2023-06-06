@@ -99,7 +99,10 @@ animate(0,500,{
             <section>
                 <img src={me} alt="" />
             </section>
+            <a href="#footer">
+
                 <BsChevronDown/>
+            </a>
         </div>
     </>
   )

@@ -11,7 +11,7 @@ const animation = {
   },
   one:{
     opacity:0,
-    x:"-100%",
+    y:"-100%",
   },
   twoAndThree:{
     opacity:0,
@@ -19,7 +19,7 @@ const animation = {
   },
   four:{
     opacity:0,
-    x:"100%",
+    x:"-100%",
   },
  
 }

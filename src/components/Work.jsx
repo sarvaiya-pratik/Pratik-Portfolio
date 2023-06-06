@@ -11,7 +11,7 @@ const Work = () => {
         <h2>Work</h2>
         <section>
             <article>
-                <Carousel className='workItem' interval={2000} infiniteLoop={true} autoPlay={true}  showStatus={false} showThumbs={false} showIndicators={false} >
+                <Carousel className='workItem' interval={2000} infiniteLoop={true} autoPlay={true}  showStatus={false} showThumbs={false} showIndicators={false} preventMovementUntilSwipeScrollTolerance={true} >
                     {
                      data.projects.map((d,i)=>{
                        return(

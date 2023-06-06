@@ -181,16 +181,18 @@
 
 
     }
-
-    >svg {
-        position: absolute;
-        font-size: 3rem;
-        left: 60%;
-        cursor: pointer;
-        bottom: 0;
-        transform: translateX(-50%);
-        animation: animateSvg 0.4s infinite linear alternate;
-
+    >a >svg{
+       
+            position: absolute;
+            font-size: 3rem;
+            right: 40%;
+            top: 80%;
+            cursor: pointer;
+            bottom: 0;
+            transform: translateX(-50%);
+            animation: animateSvg 0.4s infinite linear alternate;
+    
     }
 
+    
 }

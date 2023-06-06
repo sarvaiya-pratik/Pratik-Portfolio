@@ -22,7 +22,7 @@ const Header = ({menuOpen,setMenuopen}) => {
 
 export const MyNav = ({menuOpen,setMenuopen})=>{
     return(<div className={`phonenav ${menuOpen?"navPhoneCome":""}`}>
-   <h2>Pratik</h2>
+   <h2>PORTFOLIO</h2>
         <div>
             <a href="#home" onClick={()=>setMenuopen(false)} >Home</a>
             <a href="#work" onClick={()=>setMenuopen(false)}>Work</a>
@@ -41,7 +41,7 @@ export const MyNav = ({menuOpen,setMenuopen})=>{
 
 export const NavContent = () =>(
     <>
-        <h2>Pratik</h2>
+        <h2>PORTFOLIO</h2>
         <div>
             <a href="#home">Home</a>
             <a href="#work">Work</a>
