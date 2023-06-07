@@ -184,11 +184,12 @@
     >a >svg{
        
             position: absolute;
-            font-size: 3rem;
+            font-size: 2rem;
             right: 40%;
             top: 80%;
             cursor: pointer;
             bottom: 0;
+            color: black;
             transform: translateX(-50%);
             animation: animateSvg 0.4s infinite linear alternate;
     

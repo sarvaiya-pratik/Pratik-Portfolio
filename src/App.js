@@ -15,7 +15,7 @@ import { Toaster } from 'react-hot-toast'
 const App = () => {
  
   const [menuopen,setMenuopen] = useState(false)
-
+  console.log(menuopen)
 
   return (
 

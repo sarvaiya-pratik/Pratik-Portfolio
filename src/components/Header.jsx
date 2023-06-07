@@ -1,5 +1,7 @@
+import React from "react"
 
-import {AiOutlineMenu} from "react-icons/ai"
+
+
 
 const Header = ({menuOpen,setMenuopen}) => {
  
@@ -9,19 +11,20 @@ const Header = ({menuOpen,setMenuopen}) => {
         <nav>
             <NavContent/>
        
-       
+            <i className={`${!menuOpen?"hum":"activehum"}`} onClick={()=>setMenuopen(!menuOpen)}></i>
+            
+
         </nav>
-        <button className="navBtn" onClick={()=>setMenuopen(!menuOpen)}>
-            <AiOutlineMenu/>
-        </button>
+        {/* <button className="navBtn" onClick={()=>setMenuopen(!menuOpen)}> */}
+        {/* </button> */}
        
     </>
   )
 }
 
-
 export const MyNav = ({menuOpen,setMenuopen})=>{
-    return(<div className={`phonenav ${menuOpen?"navPhoneCome":""}`}>
+
+return(<div className={`phonenav ${menuOpen?"navPhoneCome":""}  `}>
    <h2>PORTFOLIO</h2>
         <div>
             <a href="#home" onClick={()=>setMenuopen(false)} >Home</a>

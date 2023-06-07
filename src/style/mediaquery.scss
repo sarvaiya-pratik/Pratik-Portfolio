@@ -108,6 +108,19 @@
 
   #contact {
     grid-template-columns: 1fr;
+
+    >section >form{
+      >input{
+        padding: 1.3rem;
+        width: 80%;
+        font-size: 1.3rem;
+      }
+      >button{
+        padding: 1.3rem;
+        width: 80%;
+        font-size: 1.3rem;
+      }
+    }
   }
 
   footer {
@@ -150,6 +163,9 @@
     display: none;
 
    }
+   .hum{
+    display: block;
+   }
  
   }
   .navBtn{
@@ -158,7 +174,7 @@
     color: black;
    }
    #services{
-    // display: none;
+    
    }
  
   #home {
@@ -216,8 +232,6 @@
 
 @media screen and (max-width:635px) {
 
-
-
   #home {
     height: unset;
     flex-direction: column-reverse;
@@ -226,10 +240,11 @@
     text-align: center;
 
     >svg {
-    
+      
       font-size: 1.7rem;
       top: 60%;
       left: 10%;
+     
       
 
   }
@@ -316,16 +331,21 @@
 #work{
 
   height: 120vh;
-  
   padding:  $p_base;
   padding-bottom: 13rem;
   margin-top: -30vh;
+  background-color: $color5;
 
  
+>h2{
+  color: $color4;
+  border-bottom: 1px solid $color4;
 
+}
     
     >section{
-       
+       width: 100%;
+       height: 100%;
         padding: 0;
         padding-top: unset;
         text-align: center;
@@ -333,21 +353,23 @@
         >article{
             height: 100%;
             width: 100%;
-            margin-top: 2rem;
-            text-align: center;
-           background-color: $color5;
-           display: flex;
+          
+            background-color: unset;
         }
         .workItem{
             display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
             height: 70vh;
+          width: 100%;
            
 
            
             >img{
-            width: 200px;
-            height: 200px;
+           width: 90%;
+           height: 60%;
+           object-fit: cover;
               padding: 0;
               border-radius: 20px;
             }
@@ -460,6 +482,9 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 1rem;
+        >*{
+          padding: unset;
+        }
         .serviceBox1{     
             background-color: $color1;
             grid-column: 1/3;
