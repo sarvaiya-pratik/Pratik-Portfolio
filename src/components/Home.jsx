@@ -52,11 +52,11 @@ animate(0,500,{
             <section>
                 <div>
                     <motion.h1 {...animation.h1}>
-                        Hii, I Am <br /> Sarvaiya Pratik
+                        Hii, I Am <br /> Pratik Sarvaiya
                     </motion.h1>
 
-                    <Typewriter options={{
-                        strings:["A Developer","A Designer","A Creator"],
+                     <Typewriter options={{
+                        strings:["A React Developer","A MERN Developer","A Designer"],
                         autoStart:true,
                         loop:true,
                         wrapperClassName:"typewriterpara"

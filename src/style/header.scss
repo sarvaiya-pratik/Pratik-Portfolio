@@ -58,7 +58,7 @@ nav {
 
     //Humburger 
     .hum {
-        width: 30px;
+        width: 22px;
         height: 3px;
         background-color: black;
         transition: all 0.4s;
@@ -67,7 +67,7 @@ nav {
 
 
         &::after {
-            width: 30px;
+            width: 22px;
             height: 3px;
             background-color: black;
             content: "";
@@ -77,7 +77,7 @@ nav {
         }
 
         &::before {
-            width: 30px;
+            width: 22px;
             height: 3px;
             background-color: black;
             content: "";
@@ -92,16 +92,17 @@ nav {
 
 .activehum{
    
-        width: 30px;
+        width: 22px;
         height: 3px;
         background-color: black;
         transition: all 0.4s;
         z-index: 60;
-       transform: translate(-50%);
+       transform: translate(-100%);
+        background-color: $color1;
 
 
         &::after {
-            width: 30px;
+            width: 22px;
             height: 3px;
             background-color: black;
             content: "";
@@ -112,7 +113,7 @@ nav {
         }
 
         &::before {
-            width: 30px;
+            width: 22px;
             height: 3px;
             background-color: black;
             content: "";
